@@ -395,5 +395,15 @@ a { text-decoration:none ;}
     .quote__company{
         font-size: 1.6rem;
     }
+ }
 
+ /* grid */
+ .grid{
+    display: grid;
+ }
+
+ @media screen and (min-width:1024px){
+    .grid--1x3{
+        grid-template-columns: repeat(3,1fr);
     }
+ }
